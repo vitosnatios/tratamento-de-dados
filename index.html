@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + TS</title>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+  <div class="app">
+    <table>
+      <thead>
+        <th>Total dos valores</th>
+        <th>Cartão de Crédito</th>
+        <th>Boleto</th>
+        <th>Paga</th>
+        <th>Recusada pela operadora</th>
+        <th>Aguardando pagamento</th>
+        <th>Estornada</th>
+        <th>Dia da semana com mais vendas</th>
+      </thead>
+      <tbody id="tabelaGeral"></tbody>
+    </table>
+
+    <table>
+      <thead>
+        <th>Cliente novo</th>
+        <th>Data</th>
+        <th>Email</th>
+        <th>Forma de Pagapmento</th>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Status</th>
+        <th>Valor</th>
+      </thead>
+      <tbody id="tabelaTransacoes">
+      </tbody>
+    </table>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
